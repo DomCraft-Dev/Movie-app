@@ -6,7 +6,7 @@ let modal = document.getElementById("modal");
 let modalContent =document.getElementById("modal-content");
 let modalBody =document.getElementById("modal-body");
 let closeModal = document.getElementById("close-modal");
-const base_URL = "http://www.omdbapi.com/";
+const base_URL = "https://www.omdbapi.com/";
 import { API_KEY } from "./config.js";
 let movieData = "";
 
